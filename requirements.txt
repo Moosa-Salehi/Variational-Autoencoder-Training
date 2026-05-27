@@ -1,0 +1,14 @@
+# Data Processing & Analysis
+pandas
+numpy
+scapy[complete]
+tqdm
+
+# Visualization
+matplotlib
+seaborn
+
+# Deep Learning
+torch
+torchvision
+torchaudio
