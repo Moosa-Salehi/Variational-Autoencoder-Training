@@ -2,62 +2,33 @@
 PHASE 1: RAW DATA & DEDUPLICATION (Sorted by Count)
 Protocol                  | Unique Payloads
 ------------------------------------------------------------
-Modbus                    | 315215         
-IEC60870                  | 189060         
-EthernetIP                | 173780         
-BACnet                    | 116458         
-S7Comm                    | 46828          
-MELSEC                    | 33980          
-S7CommPlus                | 16646          
-IEEE-C37118               | 14402          
-CNP-IP                    | 12028          
-ISO9506-1-MMS             | 7120           
-DNP3                      | 3081           
-EtherSIO                  | 2513           
-HART-IP                   | 1494           
-CIP                       | 1445           
-Ether-S-Bus               | 884            
-TriStation                | 815            
-OPC-UA                    | 431            
-IEC62056                  | 339            
-BeckhoffADS               | 298            
-FINS                      | 251            
-Modbus.UMAS               | 179            
-MQTT                      | 25             
-RTPS                      | 15             
-ANSI_C1222                | 7              
-COAP                      | 4              
-KNXnet_IP                 | 3              
-DCERPC.PROFINET_IO        | 3              
-RMCP                      | 2              
-PTPv2                     | 2              
-SOMEIP                    | 1              
+Modbus                    | 275632         
+CIP                       | 230782         
+IEC 60870-5-104           | 192683         
+IEC 61850 GOOSE           | 177400         
+BACnet                    | 100105         
+S7comm                    | 48774          
+IEC 61850 MMS             | 5070           
+DNP3                      | 3160           
+HART-IP                   | 2697           
+EtherNet/IP               | 1469           
+EtherCAT                  | 1087           
+OPC UA                    | 436            
+ZigBee                    | 190            
+IEC 61850 Sampled Values  | 30             
+PROFINET                  | 26             
+Ethernet POWERLINK        | 25             
 
 ============================================================
-PHASE 2: FINAL DATASET (Min: 100, Max: 200000)
+PHASE 2: FINAL DATASET (Min: 10000, Max: 200000)
 Protocol                  | Final Count    
 ------------------------------------------------------------
 Modbus                    | 200000         
-IEC60870                  | 189060         
-EthernetIP                | 173780         
-BACnet                    | 116458         
-S7Comm                    | 46828          
-MELSEC                    | 33980          
-S7CommPlus                | 16646          
-IEEE-C37118               | 14402          
-CNP-IP                    | 12028          
-ISO9506-1-MMS             | 7120           
-DNP3                      | 3081           
-EtherSIO                  | 2513           
-HART-IP                   | 1494           
-CIP                       | 1445           
-Ether-S-Bus               | 884            
-TriStation                | 815            
-OPC-UA                    | 431            
-IEC62056                  | 339            
-BeckhoffADS               | 298            
-FINS                      | 251            
-Modbus.UMAS               | 179            
+CIP                       | 200000         
+IEC 60870-5-104           | 192683         
+IEC 61850 GOOSE           | 177400         
+BACnet                    | 100105         
+S7comm                    | 48774          
 ------------------------------------------------------------
-TOTAL SAMPLES IN INTEGRATED DATASET: 822032
+TOTAL SAMPLES IN INTEGRATED DATASET: 918962
 ============================================================
