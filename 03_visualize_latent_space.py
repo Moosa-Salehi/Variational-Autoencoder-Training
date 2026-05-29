@@ -252,7 +252,7 @@ def main():
     plt.savefig(pdf_filename, format="pdf", bbox_inches="tight")
     
     print(f"[+] Success! Plot saved as raster image: '{png_filename}' (300 DPI)")
-    print(f"[+] Success! Plot saved as vector graphics: '{pdf_filename}' (Perfect for Thesis LaTeX documents)")
+    print(f"[+] Success! Plot saved as vector graphics: '{pdf_filename}'")
     plt.close()
 
 if __name__ == "__main__":
