@@ -3,7 +3,7 @@ import numpy as np
 from collections import Counter
 from tqdm import tqdm
 
-DATASET_PATH = "04_z_integrated_vae_dataset.json"
+DATASET_PATH = "dataset.json"
 
 if __name__ == "__main__":
     print(f"Loading data from {DATASET_PATH}...")
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     # --- Plotting ---
     try:
         import matplotlib.pyplot as plt
-        import seaborn as sns
+        import seaborn as sns # type: ignore
 
         plt.figure(figsize=(14, 6))
         
@@ -80,8 +80,8 @@ if __name__ == "__main__":
         plt.xticks(rotation=45)
         
         plt.tight_layout()
-        plt.savefig("05_z_payload_length_distribution.png")
-        print("\n[+] Plot saved as '05_z_payload_length_distribution.png'")
+        plt.savefig("01_payload_length_distribution.png")
+        print("\n[+] Plot saved as '01_payload_length_distribution.png'")
 
     except ImportError:
         print("\n[!] Matplotlib/Seaborn not found. Skipping plot.")

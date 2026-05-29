@@ -13,8 +13,8 @@ from sklearn.manifold import TSNE
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-MODEL_PATH = "06_z_industrial_vae_full.pth"  # Ensure this matches your saved VAE model name
-DATA_PATH = "04_z_integrated_vae_dataset.json"
+MODEL_PATH = "02_z_industrial_vae_full.pth"  # Ensure this matches your saved VAE model name
+DATA_PATH = "dataset.json"
 MAX_LEN = 256                # Must match training script
 LATENT_DIM = 32              # Must match training script
 MAX_SAMPLES_PER_PROTO = 300  # Cap to prevent t-SNE hairballs and speed up computation
@@ -245,8 +245,8 @@ def main():
     plt.tight_layout()
     
     # Save Outputs
-    png_filename = "07_z_latent_space_tsne.png"
-    pdf_filename = "07_z_latent_space_tsne.pdf"
+    png_filename = "03_z_latent_space_tsne.png"
+    pdf_filename = "03_z_latent_space_tsne.pdf"
     
     plt.savefig(png_filename, dpi=300, bbox_inches="tight")
     plt.savefig(pdf_filename, format="pdf", bbox_inches="tight")

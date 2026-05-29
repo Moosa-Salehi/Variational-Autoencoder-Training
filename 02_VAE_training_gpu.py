@@ -19,9 +19,9 @@ LEARNING_RATE = 1e-3
 SAMPLER_POWER = 0.5  # 0.0 = natural distribution, 1.0 = fully balanced, 0.5 = square-root balanced (optimal)
 
 # --- File Path's ---
-DATASET_PATH = "04_z_integrated_vae_dataset.json"
-OUTPUT_MODEL_NAME = "06_z_industrial_vae_full.pth"
-OUTPUT_ENCODER_NAME = "06_z_industrial_encoder_only.pth"
+DATASET_PATH = "dataset.json"
+OUTPUT_MODEL_NAME = "02_z_industrial_vae_full.pth"
+OUTPUT_ENCODER_NAME = "02_z_industrial_encoder_only.pth"
 
 # --- Device Optimization ---
 def get_device():

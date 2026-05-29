@@ -1,7 +1,6 @@
 # Data Processing & Analysis
 pandas
 numpy
-scapy[complete]
 tqdm
 
 # Visualization
